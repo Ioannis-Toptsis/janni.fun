@@ -1,0 +1,267 @@
+<!--
+    Developed by Janni (Ioannis Toptsis).
+    You can find the website's source code on his GitHub,
+    available under https://github.janni.fun
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon" />
+    <title>Janni.fun 🔥 HUB</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=1.0.96" />
+</head>
+
+<body>
+
+    <div id="hub" class="screen">
+        <div id="language-dropdown" class="language-dropdown">
+            <button id="language-btn" class="language-btn">English ▼</button>
+            <div id="language-menu" class="language-menu">
+                <a href="#" data-lang="en">🌍 English 🌍</a>
+                <a href="#" data-lang="de">🌍 Deutsch 🌍</a>
+            </div>
+        </div>
+        
+        <img src="assets/pics/logo.png" alt="Logo" class="hub-image">
+        <h1 id="hubTitle">Welcome to the HUB</h1>
+        <h2 id="hubSubtitle">This is Janni’s portfolio, a curated collection of his current and past projects, along with background information and insights.</h2>
+        <h3 id="hubWarning">🚧 This website is still under development 🚧</h3>
+
+        <br></br>
+
+        <div class="grid">
+            <a class="card" href="#aboutme" data-index="1">
+                <h2 id="cardAboutTitle">📄 About Me 📄</h2>
+                <p id="cardAboutText">Here you’ll find information about Janni, who he is, why this website exists, and what he wants to achieve.</p>
+            </a>
+            <a class="card" href="#serverstatus" data-index="2">
+                <h2 id="cardServerTitle">🟩 Server Status 🟩</h2>
+                <p id="cardServerText">View real-time information about the operational status, uptime, and performance of all currently running servers managed.</p>
+            </a>
+            <a class="card" href="#projects" data-index="3">
+                <h2 id="cardProjectsTitle">♟️ Projects ♟️</h2>
+                <p id="cardProjectsText">EternalCore (Minecraft Anarchy Survival), Pudding Clicker (Game), and other projects that are either ongoing or completed.</p>
+            </a>
+            <a class="card" href="#links" data-index="4">
+                <h2 id="cardLinksTitle">🌍 Links 🌍</h2>
+                <p id="cardLinksText">Here you’ll find all the links to social media platforms and the Discord server.</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <a id="hubSide" href="#hub" data-index="0">HUB</a>
+        <a id="aboutSide" href="#aboutme" data-index="1">About Me</a>
+        <a id="serverstatusSide" href="#serverstatus" data-index="2">Server Status</a>
+        <a id="projectsSide" href="#projects" data-index="3">Projects</a>
+        <a id="linksSide" href="#links" data-index="4">Links</a>
+    </div>
+
+    <div id="section1" class="section">
+        <div class="section-content">
+        <h3 id="aboutMeTitle">About Me</h3>
+        <div class="three-column">
+            <div class="card-no-hover">
+                <h2 id="whoIsJanniTitle">Who is Janni?</h2>
+                <p id="whoIsJanniText1">My name is Janni, legally Ioannis Toptsis. I'm a passionate developer on a continuous journey to deepen my knowledge and skills, and a gamer from Hessen, Germany. From an early age, I found a safe haven in technology, a place where I could truly be myself. What began with video games quickly evolved into a deep interest in the systems behind them.</p>
+                <p id="whoIsJanniText2">Even in my youth, I built my own servers and wrote my first lines of code in Lua, Java, and later C# and JavaScript, mostly without formal instruction, driven purely by curiosity and the joy of creating. Whether it was Minecraft plugins, scripts for GTA multiplayer mods, or entire roleplay servers: every project was a new challenge, but above all, a learning experience.</p>
+                <p id="whoIsJanniText3">My projects were never created alone, many of them were built together with longtime friends I've grown close to over the years. Today, I use my portfolio not only to showcase my work but also to bring structure to my ideas and projects.</p>
+                <p id="whoIsJanniText4">At the heart of everything I do is the same motivation as back then: a passion for technology and the drive to learn about the things that truly interest me.</p>
+            </div>
+            <div class="card-no-hover">
+                <h2 id="myJourneyTitle">My Journey</h2>
+                <p id="myJourneyText1">I was born on May 30, 2002, in Offenbach am Main and have lived a life marked by psychological challenges. From an early age, I searched for a place where I could feel safe and free. I found that place in technology. Computers, games, scripting, and programming became the space where I could truly be who I wanted to be.</p>
+                <p id="myJourneyText2">I played my first video game at the age of seven; as far as I can remember, it was Call of Duty: World at War. Year after year, I followed each new Call of Duty release on the PlayStation 3. Looking back, I wish I had been a “Nintendo kid.” Today, I love Nintendo and am making up for lost time. From today’s perspective, the PlayStation is actually my “least favorite console.” Still, I owned almost every generation: PS1, PS2, PSP, PS3, PS4, as well as the original Xbox and Xbox 360. But in hindsight, my absolute favorite was the original Xbox.</p>
+                <p id="myJourneyText3">Around 2013, my fascination with PCs began, marking a deeper dive into technology and software. The game that had a lasting impact on me was GTA: San Andreas. It was the starting point for real friendships that still last today. Inspired by Gronkh, I started my first YouTube channel back then. My first Let’s Plays were recorded directly from the screen using a basic touchscreen phone, very rudimentary. A school friend then introduced me to the multiplayer modification MTA (Multi Theft Auto) for GTA: San Andreas. That was the beginning of a very special time.</p>
+                <p id="myJourneyText4">Through the Energy Reallife server, I met my first online friends. I became curious about how the technology behind the game mode worked, so I started exploring an open-source script called Vio-Lite on my own. That was my entry into Lua scripting. Later, together with my first online friend Chris, I set up our own MTA server. For that, we bought a ready-made Reallife script called LoSa from a seller named Shady. The script had legendary status for us, a modern look, clean folder structure, and an incredible faction system for its time. When we acquired it, we toasted with milk that evening, a moment I will never forget.</p>
+                <p id="myJourneyText5">Of course, not everything went smoothly. The journey was bumpy, full of setbacks, but also packed with learning moments. Although the server soon went offline, we kept starting new attempts, often with new friends we met along the way. We were young, enthusiastic, and full of ideas.</p>
+                <p id="myJourneyText6">Through another contact from Energy Reallife, I happened to meet other people who were running a local Minecraft server via Hamachi at the time. That gave me the idea to rent my own Minecraft server through Nitrado. I regularly asked my mother for a Paysafecard to finance the server. I had taken over the map from my friends, and once again, my curiosity grew about whether I could implement cool features here too, like with MTA.</p>
+                <p id="myJourneyText7">So, I taught myself Java and programmed my first plugin: a scoreboard that displayed how many times a player had died. I was incredibly proud of it and showed it to all my friends. Their enthusiasm became my motivation to keep going. That’s how our server “Greentown” came to be, limited to our circle of friends, but everyone had a lot of fun with it.</p>
+                <p id="myJourneyText8">At the same time, I restarted my YouTube channel, this time with the goal of exciting smaller YouTubers about “Greentown.” Through this, I met another person who had a strong impact on my life. I also launched my first Minecraft network: byPrefix.net, heavily inspired by GommeHD.net. I experimented with BungeeCord, the technology behind it fascinated me deeply. Although the project ended after about two years and never had many users, that didn’t matter to me. For me, it was a valuable learning experience. Even though others called it a “failure,” it was an important learning project on my journey to what I do today with Janni.fun. This phase played a major role in my decision to become an IT specialist in application development.</p>
+                <p id="myJourneyText9">After that, there was a quieter period. I focused more on gaming and only worked on smaller side projects. Then I discovered GT-MP, the first multiplayer modification for GTA V. Immediately, that old MTA feeling was back. Chris and I checked out the German RP server GVMP right away, which back then didn’t even have character creation or voice chat. For us, that was normal; nowadays, it’s hard to imagine. Unfortunately, I didn’t yet have the knowledge to write my own scripts for GT-MP, especially since C++ was too complex for me. So, for the time being, I stayed a player, also on platforms like RageMP, altV, and later FiveM.</p>
+                <p id="myJourneyText10">With FiveM came a great opportunity: Lua support and a community providing many open-source resources. I used the ESX framework and developed my first own GTA RP server on it. The project was well-structured and modern, with high standards influenced by the LoSa script, which still shapes me today. Unfortunately, there weren’t enough active players to enable real roleplay. Later, I invested in the paid altV script “Valea,” my first real project with C# and JavaScript. I learned an incredible amount from this script and began customizing it according to my vision. The result was my own, revised RP server on altV</p>
+                <p id="myJourneyText11">I was never alone in any of my projects. Chris has been my closest partner from the very beginning, whether in programming, designing, or managing projects together. I am endlessly grateful to him for that. In recent years, I have also had support from friends like Dustin and Leon, whom I met through the server myLife. We remain close friends to this day.</p>
+                <p id="myJourneyText12">The most recent projects went better than many before, but in hindsight, much was chaotic, unorganized, and often overly ambitious. There were too many fresh starts and too many loose ends. However, all these experiences led to a clear goal: I want to bring order to my projects. That’s exactly why this website exists.</p>
+                <p id="myJourneyText13">It is not just my portfolio, but the starting point for everything to come: structured, thoughtful, and with a clear vision.</p>
+            </div>
+            <div class="card-no-hover">
+                <h2 id="whatIsTitle">What is Janni.fun?</h2>
+                <p id="whatIsText1">Janni.fun is my digital playground. Here, I gather everything I’ve developed or experimented with over time, from ongoing projects to completed ideas, as well as open-source projects I’ve published. The site serves as a portfolio, an overview of my hobby, and a place where I can test new things, showcase them, and make them accessible to others.</p>
+                <p id="whatIsText2">Additionally, Janni.fun is a central hub for my game servers and other servers. If you’re playing on one of my servers, you’ll find the main access points here. There’s also a central account system that lets you log in to my various projects and manage your account.</p>
+                <p id="whatIsText3">Janni.fun is more than just a website; it’s the place where I bring together my digital projects, try out new ideas, and make everything accessible in one spot for you (and me).</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="section2" class="section">
+        <div class="section-content">
+            <h3 id="serverStatusTitle">Server Status</h3>
+            <table id="serverStatusTable">
+                <thead>
+                    <tr>
+                        <!-- Dynamic -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="section3" class="section">
+        <h3 id="projectsTitle">Projects</h3>
+        <p id="projectsClick"style="color: #303030;">Projects with a folder icon are clickable.</p>
+        <p id="projectsText"style="color: #303030;">This section is displayed in English only.</p>
+        <br>
+        <input type="text" id="projectSearch" placeholder="Search project..." onkeyup="filterProjects()" class="project-search" />
+        <br></br>
+        <div class="section-content">
+            <div class="table-container">
+            <table id="projectTable" class="projectside-table">
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Type</th>
+                        <th>Short Description</th>
+                        <th>Status</th>
+                        <th>Open Source</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Janni.fun</td>
+                        <td>Website</td>
+                        <td>This Website</td>
+                        <td style="color: rgb(0, 128, 0);">live • ongoing</td>
+                        <td>Yes</td>
+                        <td></td>
+                    </tr>
+                    <tr onclick="showModal('eternalcore')">
+                        <td>EternalCore</td>
+                        <td>Gameserver</td>
+                        <td>Minecraft Anarchy Survival Server</td>
+                        <td style="color: rgb(0, 128, 0);">ongoing</td>
+                        <td>No</td>
+                        <td></td>
+                    </tr>
+                    <tr onclick="showModal('eternalcore_system')">
+                        <td>EternalCore System</td>
+                        <td>Java Plugin</td>
+                        <td>Paper Plugin for the EternalCore Server</td>
+                        <td style="color: rgb(0, 128, 0);">ongoing</td>
+                        <td>Yes</td>
+                        <td></td>
+                    </tr>
+                    <tr onclick="showModal('puddingclicker')">
+                        <td>Pudding Clicker</td>
+                        <td>UE5 Game</td>
+                        <td>Cookie Clicker-like game with an anime look</td>
+                        <td style="color: rgb(128, 0, 107);">paused</td>
+                        <td>No</td>
+                        <td></td>
+                    </tr>
+                    <tr onclick="showModal('mangojump')">
+                        <td>MangoJump</td>
+                        <td>UE5 Game</td>
+                        <td>Jump & Run Multiplayer FPS - JumpLeague inspired</td>
+                        <td style="color: rgb(128, 0, 107);">paused</td>
+                        <td>No</td>
+                        <td></td>
+                    </tr>
+                    <tr onclick="showModal('eternallife')">
+                        <td>EternalLife</td>
+                        <td>UE5 Game</td>
+                        <td>Multiplayer Reallife UE5-Game</td>
+                        <td style="color: rgb(128, 0, 107);">paused</td>
+                        <td>No</td>
+                        <td></td>
+                    </tr>
+                    <tr onclick="window.open('https://github.com/Ioannis-Toptsis/cloudflare-dns-clear')">
+                        <td>Cloudflare DNS Clear</td>
+                        <td>Shell Script</td>
+                        <td>Remove all of your DNS-Records</td>
+                        <td style="color: rgb(0, 202, 0);">finished</td>
+                        <td>Yes</td>
+                        <td>📂</td>
+                    </tr>
+                    <tr onclick="showModal('mylife')">
+                        <td>myLife</td>
+                        <td>Gameserver</td>
+                        <td>altV and FiveM Roleplay Server</td>
+                        <td style="color: rgb(168, 0, 0);">archived</td>
+                        <td>No</td>
+                        <td></td>
+                    </tr>
+                    <tr onclick="showModal('mylife_altvscript')">
+                        <td>myLife altV-Script</td>
+                        <td>C# & JS Script</td>
+                        <td>altV Roleplay Script</td>
+                        <td style="color: rgb(168, 0, 0);">archived</td>
+                        <td>No</td>
+                        <td></td>
+                    </tr>
+                    <tr onclick="showModal('mylife_fivemscript')">
+                        <td>myLife FiveM-Script</td>
+                        <td>LUA-Script</td>
+                        <td>FiveM Roleplay Script</td>
+                        <td style="color: rgb(168, 0, 0);">archived</td>
+                        <td>No</td>
+                        <td></td>
+                    </tr>
+                    <tr onclick="window.open('https://github.com/Ioannis-Toptsis/LibertyHUB')">
+                        <td>LibertyHUB</td>
+                        <td>Website</td>
+                        <td>Checklist for the MMO Throne and Liberty</td>
+                        <td style="color: rgb(168, 0, 0);">archived</td>
+                        <td>Yes</td>
+                        <td>📂</td>
+                    </tr>
+                    <tr onclick="window.open('https://github.com/Ioannis-Toptsis/Pixelbrei-Plugins')">
+                        <td>Pixelbrei</td>
+                        <td>Java Plugin</td>
+                        <td>Plugins for a Survival Minecraft Network</td>
+                        <td style="color: rgb(168, 0, 0);">archived</td>
+                        <td>Yes</td>
+                        <td>📂</td>
+                    </tr>
+                    <tr onclick="window.open('https://github.com/Ioannis-Toptsis/mySnap')">
+                        <td>mySnap</td>
+                        <td>Website</td>
+                        <td>Social-Media Website for myLife Roleplay</td>
+                        <td style="color: rgb(168, 0, 0);">archived</td>
+                        <td>Yes</td>
+                        <td>📂</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="section4" class="section">
+        <div class="section-content">
+        <h3 id="linksTitle">Links</h3>
+        <p id="linksText">Under Development.</p>
+        </div>
+    </div>
+
+    <script src="script.js?v=1.0.32"></script>
+    <script src="serverstatus.js?v=1.0.18"></script>
+    <script src="projects.js?v=1.0.24"></script>
+</body>
+
+</html>
+
+<!--
+    Developed by Janni (Ioannis Toptsis).
+    You can find the website's source code on his GitHub,
+    available under https://github.janni.fun
+-->
