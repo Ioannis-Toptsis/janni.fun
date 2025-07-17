@@ -1,8 +1,39 @@
 /*
   Developed by Janni (Ioannis Toptsis).
-  You can find the website's source code on his GitHub,
-  available under https://github.janni.fun
+  You can find the website's source code on my GitHub,
+  available under https://github.com/Ioannis-Toptsis
 */
+
+@media (max-width: 1570px), (max-height: 800px) {
+  html, body {
+    overflow: hidden; /* kein Scrollen auf Mobile */
+    touch-action: none; /* keine Touch-Gesten */
+  }
+}
+
+.mobile-warning {
+  display: none;
+}
+
+@media (max-width: 1570px), (max-height: 800px) {
+  .mobile-warning {
+    display: flex;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: #121212;
+    color: white;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    z-index: 9999;
+  }
+
+  body > *:not(.mobile-warning) {
+    display: none;
+  }
+}
 
 * {
     margin: 0;
@@ -44,6 +75,7 @@ h1 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .card {
@@ -351,8 +383,42 @@ h1 {
     to { opacity: 1; transform: translateY(0); }
 }
 
+.linkcard {
+  display: inline-block;
+  background: #181818;
+  border-radius: 1.5rem;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 120px;
+  max-width: 100%;
+}
+
+.linkcard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(160, 0, 0, 0.4);
+}
+
+.linkcard h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.linkgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /*
   Developed by Janni (Ioannis Toptsis).
-  You can find the website's source code on his GitHub,
-  available under https://github.janni.fun
+  You can find the website's source code on my GitHub,
+  available under https://github.com/Ioannis-Toptsis
 */

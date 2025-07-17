@@ -1,7 +1,13 @@
+/*
+  Developed by Janni (Ioannis Toptsis).
+  You can find the website's source code on my GitHub,
+  available under https://github.com/Ioannis-Toptsis
+*/
+
 const mc_servers = [
     {
         name: "EternalCore",
-        ip: "eternal.janni.fun",
+        ip: "ec.janni.fun",
         port: 25565
     }
 ];
@@ -128,3 +134,9 @@ window.addEventListener("DOMContentLoaded", () => {
         displayServerStatus();
     }, 30000);
 });
+
+/*
+  Developed by Janni (Ioannis Toptsis).
+  You can find the website's source code on my GitHub,
+  available under https://github.com/Ioannis-Toptsis
+*/

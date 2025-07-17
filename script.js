@@ -1,7 +1,7 @@
 /*
   Developed by Janni (Ioannis Toptsis).
-  You can find the website's source code on his GitHub,
-  available under https://github.janni.fun
+  You can find the website's source code on my GitHub,
+  available under https://github.com/Ioannis-Toptsis
 */
 
 // Sections
@@ -242,6 +242,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /*
   Developed by Janni (Ioannis Toptsis).
-  You can find the website's source code on his GitHub,
-  available under https://github.janni.fun
+  You can find the website's source code on my GitHub,
+  available under https://github.com/Ioannis-Toptsis
 */
